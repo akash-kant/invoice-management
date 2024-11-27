@@ -1,0 +1,9 @@
+django==5.1.3
+djangorestframework
+django-cors-headers
+django-filter
+gunicorn
+psycopg2
+whitenoise
+dj-database-url
+python-dotenv
