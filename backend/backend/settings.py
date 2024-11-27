@@ -90,29 +90,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-#DATABASES = {
- #   'default': {
- #       'ENGINE': 'djongo',
- #       'CLIENT': {
-  #          'host': 'mongodb+srv://akashkantofficial:bFdFD5V1hHPx69EZ@cluster0.wv6c9.mongodb.net/invoicemanagement?retryWrites=true&w=majority&appName=Cluster0', # Replace with your MongoDB server address
-  #          'port': 27017,               # Replace with your MongoDB port if different
-  #          'username': 'akashkantofficial', # Replace with your MongoDB username (optional)
-   #         'password': 'bFdFD5V1hHPx69EZ', # Replace with your MongoDB password (optional)
-   #         'authSource': 'admin', # Replace with your MongoDB authentication database (optional)
-    #    },
-   #     'NAME': 'invoicemanagement',
-  #  }
-#}
 SUPABASE_DB_URL = os.environ.get("SUPABASE_DB_URL")
 
 DATABASES = {
